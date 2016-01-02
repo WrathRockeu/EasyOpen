@@ -5,8 +5,6 @@ import re
 
 #Get the names of all subdirectories, used for creating the checkboxes
 #and for running the shortcuts in each group
-d = '.'
-dirs = [os.path.join(d, o) for o in os.listdir(d) if os.path.isdir(os.path.join(d,o))]
 
 ##TK implementation
 class EasyOpen(Tk) :
@@ -128,5 +126,10 @@ class EasyOpen(Tk) :
         self.destroy()
     
 if __name__ == '__main__' :
+    #Get the folders
+    d = '.'
+    dirs = [os.path.join(d, o) for o in os.listdir(d) if os.path.isdir(os.path.join(d,o))]
+    print(dirs)
+    #Start the program
     window = EasyOpen(None)
     window.mainloop()
