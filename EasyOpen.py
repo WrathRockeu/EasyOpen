@@ -8,7 +8,7 @@ class EasyOpen(Tk) :
     
     ##Class Constants
     #Title of the window
-    _TITLE = 'EasyOpen v0.1'
+    _TITLE = 'EasyOpen v0.2'
     #Row to start placing widgets
     _ROW = 1
 
