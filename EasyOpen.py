@@ -190,7 +190,7 @@ def _center(window) :
 if __name__ == '__main__' :
     #Get the group folders
     cwd = '.'
-    dirs = [os.path.join(cwd, o) for o in os.listdir(cwd) if os.path.isdir(os.path.join(cwd,o))]
+    dirs = [os.path.join(cwd, o) for o in os.listdir(cwd) if os.path.isdir(os.path.join(cwd,o)) and o != '.EOSys']
     
     #Start the program
     window = EasyOpen(None)
