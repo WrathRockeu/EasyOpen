@@ -11,7 +11,6 @@ username = getpass.getuser()
 
 #Get the path of the startup folder
 startpath = 'C:\\Users\\%s\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\' %(username)
-print(startpath)
 #UPDATING FROM v0.1 or 0.2: DELETE OLD runEO.cmd FILE     
 if os.system('dir "%srunEO*"' %(startpath)) == 0 :
     os.system('del "%srunEO*"' %(startpath))
