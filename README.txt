@@ -15,3 +15,6 @@ your EasyOpen directory not in the following list: EasyOpen.py, README.txt and s
 3) Please also note that for now, you still require an installation of Python3.4, obtainable here: https://www.python.org/downloads/release/python-343/
 ==How to Use==
 Groups are made in this program by making subfolders in the folder containing EasyOpen.py. To make a group, simply right-click in this folder, click New, and create a New Folder. The name of the folder will be the name of the group. To add programs to this group, create shortcuts to the program in the group's folder. The program will run all shortcuts in each selected group.
+
+
+Hi Mike
